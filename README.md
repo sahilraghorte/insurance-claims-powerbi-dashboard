@@ -129,3 +129,16 @@ DIVIDE(CALCULATE(SUM(Insurance_data[ClaimAmount]),Insurance_data[ClaimStatus]="s
 
 Claim Frequency % =
 DIVIDE(DISTINCTCOUNT(Insurance_data[ClaimNumber]),DISTINCTCOUNT(Insurance_data[PolicyNumber]),0)
+
+##📌 Dashboard KPIs
+
+The dashboard contains the following major KPIs:
+
+Premium Amount
+Coverage Amount
+Claim Amount
+Claim Ratio %
+Loss Ratio %
+Claim Frequency
+
+
