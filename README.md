@@ -114,3 +114,18 @@ Several DAX measures were created to calculate important business KPIs.
 ```DAX
 Total Premium =
 SUM(Insurance_data[PremiumAmount])
+
+Total Coverage =
+SUM(Insurance_data[CoverageAmount])
+
+Total Claim Amount =
+SUM(Insurance_data[ClaimAmount])
+
+Claim Ratio % =
+DIVIDE(SUM(Insurance_data[ClaimAmount]),SUM(Insurance_data[PremiumAmount]) )
+
+Loss Ratio % =
+DIVIDE(CALCULATE(SUM(Insurance_data[ClaimAmount]),Insurance_data[ClaimStatus]="settled"),SUM(Insurance_data[PremiumAmount]),0)
+
+Claim Frequency % =
+DIVIDE(DISTINCTCOUNT(Insurance_data[ClaimNumber]),DISTINCTCOUNT(Insurance_data[PolicyNumber]),0)
