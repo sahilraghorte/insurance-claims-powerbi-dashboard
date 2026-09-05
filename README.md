@@ -109,7 +109,6 @@ Relationships and fields were reviewed to ensure accurate filtering and aggregat
 
 Several DAX measures were created to calculate important business KPIs.
 
-### Total Premium
 
 ```DAX
 Total Premium =
@@ -129,6 +128,8 @@ DIVIDE(CALCULATE(SUM(Insurance_data[ClaimAmount]),Insurance_data[ClaimStatus]="s
 
 Claim Frequency % =
 DIVIDE(DISTINCTCOUNT(Insurance_data[ClaimNumber]),DISTINCTCOUNT(Insurance_data[PolicyNumber]),0)
+
+---
 
 
 
