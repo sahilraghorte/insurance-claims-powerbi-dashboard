@@ -175,12 +175,6 @@ The model supports analysis across:
 - Policy types
 
 
-```
-
-The Power BI Model View was reviewed to ensure that the fields could be used correctly across the dashboard.
-
-
-
 ---
 
 # 📐 DAX & KPI Development
@@ -202,9 +196,6 @@ The major measures include:
 - Average Coverage
 - Average Claim Amount
 
-Detailed DAX documentation is available here:
-
-[DAX Measures Documentation](Documentation/DAX_Measures.md)
 
 ---
 
@@ -305,7 +296,7 @@ This allows users to inspect individual policy records.
 The dashboard includes slicers for:
 
 - Claim Number
-- Customer
+- Customer ID
 - Policy Number
 
 These slicers allow users to dynamically filter the dashboard and analyze specific customers, policies or claims.
@@ -381,38 +372,6 @@ The dashboard is designed to answer questions such as:
 
 ---
 
-# 🖥️ Dashboard Preview
-
-![Insurance Dashboard](Screenshots/insurance_dashboard.png)
-
----
-
-# 📁 Project Structure
-
-```text
-insurance-claims-powerbi-dashboard/
-│
-├── README.md
-│
-├── Dashboard/
-│   └── Insurance_Claims_Dashboard.pbix
-│
-├── Dataset/
-│   └── Insurance_data.csv
-│
-├── Screenshots/
-│   ├── insurance_dashboard.png
-│   └── data_model.png
-│
-└── Documentation/
-    ├── Data_Cleaning.md
-    ├── Data_Model.md
-    ├── DAX_Measures.md
-    └── Business_Insights.md
-```
-
----
-
 # 📚 Skills Demonstrated
 
 This project demonstrates practical knowledge of:
@@ -431,37 +390,6 @@ This project demonstrates practical knowledge of:
 
 ---
 
-# 🚀 How to Use the Dashboard
-
-1. Download the Power BI `.pbix` file.
-2. Open it using Microsoft Power BI Desktop.
-3. If Power BI requests the source file location, provide the location of `Insurance_data.csv`.
-4. Refresh the dataset if required.
-5. Use the slicers to interact with the dashboard.
-6. Analyze KPIs and visualizations.
-
----
-
-# ⚠️ Dataset Disclaimer
-
-This project is intended for **educational and portfolio purposes**.
-
-If the dataset is synthetic/sample data, it does not represent real insurance customers or real insurance transactions.
-
----
-
-# 👨‍💻 Author
-
-**Your Name**
-
-Data Analyst | Power BI | SQL | Excel | Python
-
-### Connect with me
-
-- GitHub: Your GitHub Profile
-- LinkedIn: Your LinkedIn Profile
-
----
 
 # ⭐ Project Highlights
 
