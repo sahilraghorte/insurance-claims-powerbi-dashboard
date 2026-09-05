@@ -174,15 +174,12 @@ The model supports analysis across:
 - Age groups
 - Policy types
 
-The main table used in the project is:
 
-```text
-Insurance_data
 ```
 
 The Power BI Model View was reviewed to ensure that the fields could be used correctly across the dashboard.
 
-![Data Model](Screenshots/data_model.png)
+
 
 ---
 
